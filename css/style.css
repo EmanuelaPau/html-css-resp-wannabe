@@ -127,3 +127,21 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /** TABLET */
+ /* Al massimo 768px */
+
+ @media screen and (max-width: 768px) {
+    body {
+      background-color: blue;
+    }
+  }
+
+  /** MOBILE */
+ /* Al massimo 480px */
+
+ @media screen and (max-width: 480px) {
+    body {
+        background-color: red;
+      }
+ }
