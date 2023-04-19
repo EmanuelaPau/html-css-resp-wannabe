@@ -132,9 +132,11 @@ img {
  /* Al massimo 768px */
 
  @media screen and (max-width: 768px) {
+
     body {
       /* background-color: blue; */
     }
+
     .container {
         max-width: 768px;
     }
@@ -161,7 +163,24 @@ img {
         flex-direction: column;
     }
 
+    /* Header */
+
+    .site-header {
+        background-color: #232946;
+        margin-top: 0;
+        padding-top: 3rem;
+    }
+
+    .site-header h1 {
+        margin-bottom: 0;
+        padding-bottom: 3rem;
+    }
+
     /* Lessons Section */
+
+    .lessons {
+        background-color: #232946;
+    }
 
     .lessons .col {
         width: 100%;
@@ -173,6 +192,10 @@ img {
 
     /* Steps Section */
 
+    .steps {
+        margin-top: 0;
+        padding-top: 4rem;
+    }
 
     .steps .col {
         width: 100%;
