@@ -149,8 +149,13 @@ img {
     }
 
     .row {
-        display: flex;
         flex-wrap: wrap;
         flex-direction: column;
     }
+
+    .lessons .col {
+        width: 100%;
+    }
+
  }
+
