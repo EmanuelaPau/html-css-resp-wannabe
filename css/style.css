@@ -144,7 +144,13 @@ img {
  /* Al massimo 480px */
 
  @media screen and (max-width: 480px) {
-    body {
-        /* background-color: red; */
-      }
+    .container {
+        max-width: 480px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
  }
