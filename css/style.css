@@ -144,8 +144,14 @@ img {
  /* Al massimo 480px */
 
  @media screen and (max-width: 480px) {
+
+    body {
+        font-size-adjust: 0.6;
+    }
+
     .container {
         max-width: 480px;
+        padding: 0 30px;
     }
 
     .row {
@@ -157,5 +163,12 @@ img {
         width: 100%;
     }
 
+    p {
+        margin-bottom: 4rem;
+    }
+
+    .steps .col {
+        width: 100%;
+      }
  }
 
