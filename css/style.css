@@ -148,7 +148,7 @@ img {
  @media screen and (max-width: 480px) {
 
     body {
-        font-size-adjust: 0.6;
+        font-size-adjust: 0.62;
         background-color: #222222;
 
     }
