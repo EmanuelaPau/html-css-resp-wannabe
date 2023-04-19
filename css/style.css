@@ -147,6 +147,8 @@ img {
 
     body {
         font-size-adjust: 0.6;
+        background-color: #222222;
+
     }
 
     .container {
@@ -159,6 +161,8 @@ img {
         flex-direction: column;
     }
 
+    /* Lessons Section */
+
     .lessons .col {
         width: 100%;
     }
@@ -167,8 +171,29 @@ img {
         margin-bottom: 4rem;
     }
 
+    /* Steps Section */
+
+
     .steps .col {
         width: 100%;
+    }
+
+    /* Why us Section */
+
+    .why-us {
+        background-color: #222222;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    } 
+
+    .why-us .col-right {
+        width: 100%;
       }
+
+    .col img {
+        margin-bottom: 5rem;
+    }
  }
 
