@@ -128,6 +128,16 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/** SCREEN LARGE */
+
+@media screen and (max-width: 1160px) {
+    body {
+        background-color: blue;
+      }
+
+
+}
+
  /** TABLET */
  /* Al massimo 768px */
 
