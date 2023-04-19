@@ -129,12 +129,16 @@ img {
  ************************************************/
 
 /** SCREEN LARGE */
+/* Da un minimo di 768px a un massimo di 1160px */
 
-@media screen and (max-width: 1160px) {
-    body {
+@media screen and (min-width: 768px) and (max-width: 1160px){
+    /* body {
         background-color: blue;
-      }
+      } */
 
+    .container {
+        width: 90%;
+    }
 
 }
 
